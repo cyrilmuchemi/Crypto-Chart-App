@@ -9,6 +9,12 @@
 
 ![Desktop](./screenshot/cryptodesktop.png)
 
+
+- **Tablet View**
+
+![Tablet](./screenshot/cryptotablet.png)
+
+
 - **Mobile View**
 
 ![Mobile](./screenshot/cryptomobile.png)
