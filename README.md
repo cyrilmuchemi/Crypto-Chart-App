@@ -1,31 +1,74 @@
-# curriculum-databases-projects-template
+# CryptoGuys
 
-> This template should be used for database related projects at Microverse.
-> Generate your own repository, update this README and edit all files content while working on projects. You should not be adding any new files unless asked otherwise.
+> This is a Crypto currency chat app tha displays
+   the latest changes in the crypto market over the last 24Hrs.
+
+
+## Built With
+
+- React js
+- Redux
+- JavaScript
+- Semantic UI
+- CoinGecko API
+
+## Live Demo (if available)
+
+[Live Demo Link]
 
 
 ## Getting Started
 
-This repository includes files with plain SQL that can be used to recreate a database:
+To get a local copy up and running follow these simple example steps.
 
-- Use [schema.sql](./schema.sql) to create all tables.
-- Use [data.sql](./data.sql) to populate tables with sample data.
-- Check [queries.sql](./queries.sql) for examples of queries that can be run on a newly created database. **Important note: this file might include queries that make changes in the database (e.g., remove records). Use them responsibly!**
+### Prerequisites
+
+- VS code/ Sublime text or any other editor
+- Working internet connection
+
+### Setup
+
+-If you installed git you can clone the code to your machine, or download a ZIP of all the files directly.
+
+-[Download the ZIP from this location](https://github.com/cyrilmuchemi/Metrics-Webapp), or run the following [git](https://git-scm.com/downloads) command to clone the files to your machine:
+
+-```bash
+git clone https://github.com/cyrilmuchemi/Metrics-Webapp. 
+
+- Once the files are on your machine, open the _Math-Magicians_ folder in [Visual Studio Code](https://code.visualstudio.com/), and follow the steps in Installation & Set Up
 
 
+## 🛠 Installation & Set Up
+
+1. Install Node Modules
+
+   ```sh
+   npm install
+
+2. Start the development server
+
+   ```sh
+   npm start
+
+3. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+
+## 🚀 Building and Running for Production
+
+1. Generate a full static production build
+
+    ```sh
+   npm run build
+   
+   
 ## Authors
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@cyrilmuchemi](https://github.com/cyrilmuchemi)
+- Twitter: [@cyril muchemi](https://twitter.com/cyrilmuchemi)
+- LinkedIn: [Cyril Muchemi](https://linkedin.com/in/cyrilmuchemi)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
