@@ -3,6 +3,16 @@
 > This is a Crypto currency chat app tha displays
    the latest changes in the crypto market over the last 24Hrs.
 
+## Screenshots
+
+- **Desktop View**
+
+![Desktop](./screenshot/cryptodesktop.png)
+
+- **Mobile View**
+
+![Mobile](./screenshot/cryptomobile.png)
+
 
 ## Built With
 
