@@ -5,7 +5,4 @@ export const getCoins = (coins) => ({
   payload: coins,
 });
 
-export const selectedCoin = (coin) => ({
-  type: ActionTypes.SELECTED_COIN,
-  payload: coin,
-});
+export default getCoins;

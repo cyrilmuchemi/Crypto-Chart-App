@@ -14,12 +14,4 @@ export const coinReducer = (state = initialState, { type, payload }) => {
   }
 };
 
-export const selectedCoinReducer = (state = {}, { type, payload }) => {
-  switch (type) {
-    case ActionTypes.SELECTED_COIN:
-      return { ...state, ...payload };
-
-    default:
-      return state;
-  }
-};
+export default coinReducer;
