@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Koulen&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
+
+@media screen and (min-width: 992px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  nav {
+    width: 100%;
+    background: black;
+  }
+
+  .navigation {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    color: #fff;
+    padding: 6px;
+  }
+
+  .title {
+    padding-top: 3px;
+  }
+
+  .icons {
+    padding-top: 12px;
+    cursor: pointer;
+  }
+
+  .gear {
+    margin-left: 14px;
+  }
+
+  .section {
+    background: rgb(3, 3, 33);
+    width: 100%;
+  }
+
+  .header-image {
+    margin-bottom: 50px;
+    background: rgb(3, 3, 33);
+  }
+
+  .display-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 283px);
+    gap: 30px;
+    justify-content: center;
+  }
+
+  .wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 140px;
+    border: 1px solid black;
+    background: rgb(28, 28, 188);
+    cursor: pointer;
+  }
+
+  .wrapper:hover {
+    color: #fff;
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+  }
+
+  .crypto-image {
+    background: rgb(28, 28, 188);
+    width: 40%;
+  }
+
+  .crypto-image-image {
+    margin-left: 25px;
+    margin-top: 25px;
+  }
+
+  .card {
+    background: rgb(28, 28, 188);
+    width: 60%;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background: rgb(28, 28, 188);
+  }
+
+  .name {
+    margin-top: 18px;
+    color: rgb(245, 232, 232);
+    font-size: 28px;
+    line-height: 29px;
+    font-family: 'Crete Round', sans-serif;
+  }
+
+  .arrow {
+    background: rgb(28, 28, 188);
+    padding-right: 8px;
+    padding-top: 8px;
+  }
+
+  .neg {
+    margin-top: 25px;
+    color: rgb(211, 33, 33);
+    font-size: 22px;
+    font-weight: bold;
+  }
+
+  .pos {
+    color: green;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+  }
+
+  .details {
+    background: rgb(3, 3, 33);
+    height: 100vh;
+  }
+
+  .larger {
+    margin-top: 0;
+    position: relative;
+  }
+
+  .detail-container {
+    position: absolute;
+    background: rgb(28, 28, 188);
+    border: 1px black solid;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    margin-left: 22px;
+    margin-top: 70px;
+    height: 70vh;
+  }
+
+  .detail-image {
+    background: rgb(28, 28, 188);
+    margin-left: 80px;
+    width: 160px;
+    padding: 12px;
+  }
+
+  .detail-content {
+    background: rgb(28, 28, 188);
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 60px;
+    width: 170px;
+    height: 35vh;
+  }
+
+  .detail-name {
+    color: #fff;
+    font-family: 'Crete Round', sans-serif;
+    font-size: 32px;
+    background: rgb(28, 28, 188);
+    padding: 8px;
+    line-height: 28px;
+    margin-top: 16px;
+  }
+
+  .detail-rank {
+    color: #fff;
+    font-family: 'Crete Round', sans-serif;
+    font-size: 26px;
+    background: rgb(28, 28, 188);
+  }
+
+  .detail-price {
+    color: #fff;
+    font-size: 19px;
+    background: rgb(28, 28, 188);
+    margin-top: 16px;
+  }
+}
