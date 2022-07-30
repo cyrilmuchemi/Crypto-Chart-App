@@ -1,10 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useSelector } from 'react-redux';
+import { selectSearchTerm } from '../redux/searchSlice';
 
 const CoinComponent = () => {
   const coins = useSelector((state) => state.allCoins.coins);
-  const renderCoins = coins.map((coin, index) => {
+  const searchTerm = useSelector(selectSearchTerm);
+  const renderCoins = coins.filter(({ name }) => name.includes(searchTerm)).map((coin, index) => {
     const {
       id, name, price_change_percentage_24h: changePercent24Hr, image,
     } = coin;

@@ -5,6 +5,7 @@ import { Container } from 'semantic-ui-react';
 import { getCoins } from '../redux/actions/coinAction';
 import CoinComponent from './CoinComponent';
 import img1 from '../images/wallCrypt.jpg';
+import Search from './Search';
 
 const CoinListing = () => {
   const coins = useSelector((state) => state);
@@ -33,6 +34,9 @@ const CoinListing = () => {
             width="100%"
             height="120px"
           />
+        </div>
+        <div className="ui search search-flex">
+          <Search />
         </div>
         <div className="display-grid">
           <CoinComponent />
