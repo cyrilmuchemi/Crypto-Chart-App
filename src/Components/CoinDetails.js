@@ -11,9 +11,7 @@ const CoinDetails = () => {
   const { id } = useParams();
 
   const fetchCoins = async () => {
-    const response = await axios.get('https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=50&page=1&sparkline=false').catch((err) => {
-      console.log('Error', err);
-    });
+    const response = await axios.get('https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=50&page=1&sparkline=false');
     dispatch(getCoins(response.data));
   };
 
