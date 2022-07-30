@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import axios from 'axios';
 import { useDispatch, useSelector } from 'react-redux';
-import { Container } from 'semantic-ui-react';
+import { Button, Container } from 'semantic-ui-react';
 import { getCoins } from '../redux/actions/coinAction';
 
 const CoinDetails = () => {
@@ -24,6 +24,11 @@ const CoinDetails = () => {
     <div className="details">
       <Container fluid>
         <div className="larger">
+          <div className="back-button">
+            <Link to="/">
+              <Button className="button" primary>Back</Button>
+            </Link>
+          </div>
           <div className="detail-container">
             <div className="detail-image">
               <img src={coins[id].image} alt={coins[id].name} width="105px" />

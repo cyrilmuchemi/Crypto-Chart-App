@@ -8,6 +8,14 @@
     height: 100%;
   }
 
+  .back-button {
+    padding: 45px;
+  }
+
+  .button {
+    width: 100px;
+  }
+
   .logo h1 {
     font-size: 12px;
   }
