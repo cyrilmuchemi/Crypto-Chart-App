@@ -27,10 +27,11 @@
 - JavaScript
 - Semantic UI
 - CoinGecko API
+- Jest
 
-## Live Demo (if available)
+## Live Demo
 
-[Live Demo Link]
+- https://62e51d2fab662b7f5fcc1786--unique-hummingbird-bef2b7.netlify.app/
 
 
 ## Getting Started
@@ -51,7 +52,7 @@ To get a local copy up and running follow these simple example steps.
 -```bash
 git clone https://github.com/cyrilmuchemi/Metrics-Webapp. 
 
-- Once the files are on your machine, open the _Math-Magicians_ folder in [Visual Studio Code](https://code.visualstudio.com/), and follow the steps in Installation & Set Up
+- Once the files are on your machine, open the _Crypto-Chart-App_ folder in [Visual Studio Code](https://code.visualstudio.com/), and follow the steps in Installation & Set Up
 
 
 ## 🛠 Installation & Set Up
@@ -98,9 +99,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- CoinGecko API
+- Nelson Sakwa on Behance
 
 ## 📝 License
 
